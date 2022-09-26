@@ -50,13 +50,6 @@ const USER_CONFIG = {
     // 学生课表
     courseSchedule: false,
   },
-
-  /** 每日一言 */
-
-  // 每日一言的内容类型
-  // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: '',
-
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
@@ -67,7 +60,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oacWs59nxCK6oVfQdHjmFLiwfgz8',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'RDZ_mR-IGWCVkV_cVyCc7b6x6Hh-3tvv6RSigS8JPy0',
+      useTemplateId: 'abaopL_SkjuRiFc06x3Zhs-npJI2TZ8EO4hcT5GAN7k',
       // 所在省份
       province: '山东',
       // 所在城市
