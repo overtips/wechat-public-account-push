@@ -91,6 +91,11 @@ const USER_CONFIG = {
         },
         
       ],
+	  // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+	  customizedDateList: [
+	    // 生日
+	    { keyword: 'birthday1', date: '2023-04-25' },
+	  ],
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
    */
