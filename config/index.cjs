@@ -31,7 +31,7 @@ const USER_CONFIG = {
     // 金山每日一句
     CIBA: false,
     // 每日一言
-    oneTalk: false,
+    oneTalk: ture,
     // 土味情话(彩虹屁)
     earthyLoveWords: false,
     // 朋友圈文案
@@ -64,7 +64,7 @@ const USER_CONFIG = {
       // 所在省份
       province: '山东',
       // 所在城市
-      city: '菏泽',
+      city: '高密',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '4-7',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -118,7 +118,7 @@ const USER_CONFIG = {
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: '山东',
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: '菏泽',
+  CITY: '高密',
 
   /** 重要节日相关 */
 
